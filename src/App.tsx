@@ -5,7 +5,7 @@ export default function App() {
   const [activeRateTab, setActiveRateTab] = useState("main");
   const [activeGameTab, setActiveGameTab] = useState("main");
 
-  const downloadUrl = "https://24x7game.xyz/p22/Play%2024x7.apk";
+  const downloadUrl = "https://24x7game.xyz/Play%2024x7.apk";
 
   const rates = {
     main: [
@@ -75,7 +75,7 @@ export default function App() {
               PLAY BIG <br />
               <span className="text-emerald-600 block mt-2 text-6xl">WIN BIG</span>
             </h2>
-            <div className="bg-yellow-400 text-emerald-950 font-[1000] py-4 rounded-2xl shadow-xl mb-4 inline-block px-8 transform -rotate-1 border-2 border-emerald-900">
+            <div className="bg-yellow-400 text-emerald-950 font-[1000] py-4 rounded-2xl shadow-xl mb-4 inline-block px-8 border-2 border-emerald-900">
               <span className="text-xl">DOWNLOAD NOW FOR</span> <br />
               <span className="text-3xl text-red-600">ULTIMATE BONUS</span>
             </div>
